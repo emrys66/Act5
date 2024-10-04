@@ -4,7 +4,7 @@
   become: true
   tasks:
 
-  - name: install apache2amd php packages in Ubuntu
+  - name: install apache2amd php packages in Ubuntu and CentOS
     package:
       name:
         - "{{ apache_package }}"
